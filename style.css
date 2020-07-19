@@ -221,7 +221,7 @@ li {
 }
 
 p {
-    color: #726a84;
+    color: #060c06;
     font-size: 16px;
     font-weight: 300;
     margin-top: 0;
@@ -232,13 +232,13 @@ p {
 }
 .section-heading_2 > h2 {
     font-weight: 300;
-    color: #5b32b4;
+    color: #18701c;
     font-size: 35px;
     margin: 0;
 }
 .section-heading > h2 {
     font-weight: 300;
-    color: #5b32b4;
+    color: #18701c;
     font-size: 48px;
     margin: 0;
 }
@@ -383,7 +383,7 @@ p {
     color: #fff;
     font-weight: 500;
     display: inline-block;
-    border: 2px solid #a883e9;
+    border: 2px solid #ffffff;
     height: 50px;
     min-width: 178px;
     line-height: 46px;
@@ -403,13 +403,14 @@ p {
 /* stcicky css */
 
 .header_area.sticky {
-    background-color: #884bdf;
+    background-color: #3bac40;
     -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     height: 70px;
     position: fixed;
     top: 0;
     z-index: 99;
+    opacity: 0.9;
 }
 
 .header_area.sticky .menu_area .navbar-brand {
@@ -757,12 +758,12 @@ p {
 .cool_facts_area {
     position: relative;
     z-index: auto;
-    background: #a865e1;
-    background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
-    background: -webkit-linear-gradient(right, #7873ed, #a865e1);
-    background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
-    background: -o-linear-gradient(right, #7873ed, #a865e1);
-    background: linear-gradient(to left, #7873ed, #a865e1);
+    background: #d9ff00;
+    background: -webkit-linear-gradient(to left, #036303, #50ff50);
+    background: -webkit-linear-gradient(right, #036303, #50ff50);
+    background: -webkit-gradient(linear, right top, left top, from(#036303), to(#50ff50));
+    background: -o-linear-gradient(right, #036303, #50ff50);
+    background: linear-gradient(to left, #036303, #50ff50);
     padding: 180px 0 80px 0;
     top: -100px;
 }
@@ -932,9 +933,9 @@ p {
 .clients-feedback-area .client-name > h5 {
     color: #5b32b4;
     font-size: 22px;
-    margin-top: 5px;
+    margin-top: 1px;
 }
-
+068
 .clients-feedback-area .star-icon > i {
     font-size: 18px;
     color: #f1b922;
@@ -943,14 +944,14 @@ p {
 .clients-feedback-area .client-description > p {
     max-width: 1010px;
     margin: auto;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     font-size: 22px;
 }
 
 .clients-feedback-area .client > i {
     font-size: 48px;
     color: #897ceb;
-    margin-bottom: 30px;
+    margin-bottom: 1px;
 }
 
 .clients-feedback-area .client-name > p {
@@ -976,7 +977,7 @@ p {
     border: 3px solid #a49fba;
     background-color: #fff;
     border-radius: 50%;
-    margin: 5.5px;
+    margin: 1.5px;
     outline: none;
 }
 
@@ -1043,12 +1044,12 @@ p {
 -------------------------- */
 
 .our-monthly-membership {
-    background: #a865e1;
-    background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
-    background: -webkit-linear-gradient(right, #7873ed, #a865e1);
-    background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
-    background: -o-linear-gradient(right, #7873ed, #a865e1);
-    background: linear-gradient(to left, #7873ed, #a865e1);
+    background: #026d22;
+    background: -webkit-linear-gradient(to left, #13d44d, #0da53a);
+    background: -webkit-linear-gradient(right, #13d44d, #0da53a);
+    background: -webkit-gradient(linear, right top, left top, from(#8fff10), to(#0da53a));
+    background: -o-linear-gradient(right, #13d44d, #0da53a);
+    background: linear-gradient(to left, #13d44d, #0da53a);
 }
 
 .membership-description > h2 {
@@ -1102,7 +1103,7 @@ p {
 
 .member-text > h4 {
     font-size: 22px;
-    color: #5b32b4;
+    color: #0f4618;
 }
 
 .member-text > p {
@@ -1116,7 +1117,8 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(105, 75, 228, 0.8);
+    background-color: rgba(83, 175, 250, 0.8);
+    opacity: 0.9;
     border-radius: 30px 30px 30px 0;
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -1179,7 +1181,7 @@ p {
 .address-text > p > span,
 .phone-text > p > span,
 .email-text > p > span {
-    color: #5b32b4;
+    color: #068817;
 }
 
 .footer-contact-area .line-shape {
@@ -1220,7 +1222,7 @@ p {
 }
 
 .btn.submit-btn:hover {
-    background: #5b32b4;
+    background: #068817;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -1240,17 +1242,18 @@ p {
 -------------------------- */
 
 .footer-text > h2 {
-    color: #5b32b4;
+    color: #068817;
     font-size: 72px;
     font-weight: 700;
 }
 
 .footer-social-icon > a > i {
-    background: #9b69e4;
+    background: #53fa6a;
     font-size: 14px;
     color: #ffffff;
     height: 40px;
     width: 40px;
+    opacity: 0.8;
     line-height: 40px;
     font-weight: 500;
     border-radius: 10px 10px 10px 0px;
